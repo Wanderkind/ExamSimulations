@@ -60,10 +60,15 @@ while True:
         if 답안 == '':
             continue
         
-        elif 49 <= ord(str(답안)) < 54:
-            if 선지[int(답안) - 1] == 정답:
-                print('\n정답\n')
-                break
+        elif len(답안) == 1:
+            if 49 <= ord(str(답안)) < 54:
+                if 선지[int(답안) - 1] == 정답:
+                    print('\n정답\n')
+                    break
+                
+                else:
+                    print('\n오답')
+                    continue
             
             else:
                 print('\n오답')
