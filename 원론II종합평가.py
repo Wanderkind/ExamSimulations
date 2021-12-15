@@ -23,7 +23,10 @@ while True:
             while True:
                 답안 = input('\n답안 입력 (1 ~ 5) : ')
                 
-                if 답안 == 정답:
+                if 답안 == '':
+                    continue
+                
+                elif 답안 == 정답:
                     print('\n정답\n\n뒤로 돌아가려면 X를 입력하세요')
                     break
                     
@@ -72,7 +75,10 @@ while True:
             while True:
                 답안 = input('\n답안 입력 (1 ~ 5) : ')
                 
-                if 49 <= ord(str(답안)) < 54:
+                if 답안 == '':
+                    continue
+                
+                elif 49 <= ord(str(답안)) < 54:
                     if 선지[int(답안) - 1] == 정답:
                         print('\n정답\n\n뒤로 돌아가려면 X를 입력하세요')
                         break
@@ -119,7 +125,10 @@ while True:
             while True:
                 답안 = str(input('\n답안 입력 : '))
                 
-                if 답안 == 정답[c]:
+                if 답안 == '':
+                    continue
+                
+                elif 답안 == 정답[c]:
                     print('\n정답\n\n뒤로 돌아가려면 X를 입력하세요')
                     break
                 
@@ -166,7 +175,10 @@ while True:
             while True:
                 답안 = input('\n답안 입력 (1 ~ 5) : ')
                 
-                if 49 <= ord(str(답안)) < 54:
+                if 답안 == '':
+                    continue
+                
+                elif 49 <= ord(str(답안)) < 54:
                     if 답안 == 정답:
                         print('\n정답\n\n뒤로 돌아가려면 X를 입력하세요')
                         break
@@ -200,7 +212,10 @@ while True:
             while True:
                 답안 = str(input('\n답안 입력 : '))
                 
-                if 답안 == 정답[c]:
+                if 답안 == '':
+                    continue
+                
+                elif 답안 == 정답[c]:
                     print('\n정답\n\n뒤로 돌아가려면 X를 입력하세요')
                     break
                 
@@ -215,5 +230,5 @@ while True:
         continue
     
     else:
-        
+    
         continue
