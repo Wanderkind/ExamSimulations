@@ -1,7 +1,7 @@
 
 import random
 
-print('\n한의학원론II 기말고사 대비 퀴즈모음')
+print('\n★★ 한의학원론II 기말고사 대비 퀴즈모음 ★★')
 
 while True:
     
@@ -161,7 +161,7 @@ while True:
             else:
                 정답 = '5'
 
-            print('\n1.간 2.심 3.비 4.폐 5.신 중 어디에 해당? :', 분야[c])
+            print('\n1.肝 2.心 3.脾 4.肺 5.腎 중 어디에 해당? :', 분야[c])
 
             while True:
                 답안 = input('\n답안 입력 (1 ~ 5) : ')
@@ -215,4 +215,5 @@ while True:
         continue
     
     else:
+        
         continue
