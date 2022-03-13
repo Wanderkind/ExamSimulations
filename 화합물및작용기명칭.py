@@ -35,4 +35,3 @@ while 1:
     else:
         print('\n응 틀렸어 첨부터 다시\n')
         continue
-        continue
