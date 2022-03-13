@@ -7,7 +7,7 @@ print('\n화합물의 분류를 하나씩 입력하시오\n')
 while 1:
     L=[]
     for i in range(12):
-        x=input()
+        x=input(f'{i+1}: ')
         if ' ' in x:
             x=x.replace(' ','')
         L.append(x) 
