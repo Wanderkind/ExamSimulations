@@ -13,7 +13,7 @@ while 1:
     print(f"{['木','火','土','金','水'][a]}의 {['平氣','太過','不及'][b]}")
     while 1:
         if input()==S[a][b]:
-            print('정답')
+            print('정답\n')
             break
         else:
             print('ㄴㄴ')
