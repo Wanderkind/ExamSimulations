@@ -48,10 +48,13 @@ Z=[
 while 1:
     a=random.randrange(3)
     b=random.randrange(5)
-    print(random.choice(Z[a][b]))
-    print(S[a])
+    y=random.choice(Z[a][b])
+    z=S[a][:]
+    random.shuffle(z)
+    print(y)
+    print(z)
     while 1:
-        if int(input())==b+1:
+        if z[int(input())-1]==S[a][b]:
             print('정답\n')
             break
         else:
