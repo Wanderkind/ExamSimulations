@@ -10,16 +10,16 @@ g=['면','설','한','흉']
 h=['수성화물','비별청탁','소장주액']
 
 t=['간의 생리특성','간의 생리기능','간의 기능발현계','심의 생리특성','심의 생리기능','심의 기능발현계']
-z=[4,7,5,2,3,2,4,3]
 w=[a,b,c,d,e,f,g,h]
 
 for q in range(8):
     print(f'\n###### {t[q]} ######\n')
     while 1:
+        W=w[q]
         s=[]
-        for i in range(z[q]):
-            s.append(input(str(i+1)+' '))
-        if s==w[q]:
+        for i in range(len(W)):
+            s.append(input(str(i+1)+' ').strip())
+        if set(s)==set(W):
             print('\nㅇㅇㅇㅇㅇ')
             break
         else:
