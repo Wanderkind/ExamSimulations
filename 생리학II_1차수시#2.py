@@ -19,9 +19,12 @@ while 1:
     print('')
     print(t[z])
     while 1:
-        e=int(input('태음 양명 소양 소음 태음 궐음 中 > '))-1
-        if e==r:
-            print('ㅇㅇ')
-            break
-        else:
+        try:
+            e=int(input('태음 양명 소양 소음 태음 궐음 中 > '))-1
+            if e==r:
+                print('ㅇㅇ')
+                break
+            else:
+                print('ㄴㄴ')
+        except ValueError:
             print('ㄴㄴ')
