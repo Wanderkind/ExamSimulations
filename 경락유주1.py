@@ -151,8 +151,8 @@ while 1:
             if s=='':
                 print(f'\n{l[i-1]}')
                 print('\n넘어가려면 엔터, 처음부터 다시 하려면 Y >',end=' ')
-                t=input()
-                if any(j in t for j in 'Yyㅛ'):
+                q=input()
+                if any(j in q for j in 'Yyㅛ'):
                     cont=False
                 break
             
