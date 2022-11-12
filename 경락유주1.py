@@ -1,4 +1,5 @@
 
+# translations from https://mediclassics.kr/books/184/volume/3
 
 import random
 
