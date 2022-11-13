@@ -149,7 +149,7 @@ while 1:
             print(f'\n{i}/{k} 정답 확인하려면 엔터, 해석 보려면 Y >',end=' ')
             s=input()
             if s=='':
-                print(f'\n{l[i-1]}')
+                print(f'\n{l[i]}')
                 print('\n넘어가려면 엔터, 처음부터 다시 하려면 Y >',end=' ')
                 q=input()
                 if any(j in q for j in 'Yyㅛ'):
@@ -157,7 +157,7 @@ while 1:
                 break
             
             elif any(j in s for j in 'Yyㅛ'):
-                print(f'\n{t[i-1]}')
+                print(f'\n{t[i]}')
                 continue
             
             else:
