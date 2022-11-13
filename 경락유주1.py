@@ -141,7 +141,7 @@ while 1:
     k=len(l)
     
     cont=True
-    i=0
+    i=-1
     while cont and i<k:
         i+=1
         
