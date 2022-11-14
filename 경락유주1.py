@@ -146,7 +146,7 @@ while 1:
         i+=1
         
         while i<k:
-            print(f'\n{i}/{k} 정답 확인하려면 엔터, 해석 보려면 Y >',end=' ')
+            print(f'\n{i}/{k-1} 정답 확인하려면 엔터, 해석 보려면 Y >',end=' ')
             s=input()
             if s=='':
                 print(f'\n{l[i]}')
