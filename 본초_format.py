@@ -36,4 +36,4 @@ while z:
     if z:
         print(f"아직 {len(z)}개 틀렸음\n이제 틀린 거 다시 풀어보자\n")
     else:
-        print("끝\")
+        print("끝\n")
