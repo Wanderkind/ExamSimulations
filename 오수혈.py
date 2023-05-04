@@ -14,11 +14,17 @@ l = [
     ['대돈', '행간', '태충', '충봉', '곡천', '태충', '여구', '중도', '기문', '간수']
 ]
 
+m = ['폐경', '대장경', '위경', '비경', '심경', '소장경', '방광경', '신경', '심포경', '삼초경', '담경', '간경']
+
 score = [0 for _ in range(120)]
 
 while sum(score) < 120:
     for i in range(12):
-        s = input()
+        s = input(f"{m[i]} > ")
+        if s in ['flush', 'FLUSH', '리ㅕ노']:
+            for _ in range(100):
+                print()
+            s = input(f"{m[i]} > ")
         ans = s.split()
         for j in range(10):
             if ans[j] == l[i][j]:
