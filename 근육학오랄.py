@@ -41,6 +41,25 @@ def q4():
     input()
     for i in k:print(i)
 
+def q5():
+    k = [
+        "bulbospongiosus",
+        "ischiocavernosus",
+        "superficial transverse perineal",
+        
+        "puborectoralis",
+        "pubococcygeus",
+        "iliococcygeus",
+        "coccygeus",
+        "obturator internus",
+        "piriformis",
+    ]
+    
+    print("3+6 muscles")
+    input()
+    for i in k:print(i)
+    print()
+
 def q6():
     d = {
         "clavicle": {
@@ -104,4 +123,8 @@ def q6():
             print(j, z[j])
         print()
 
-q6()
+while 1:
+    q3()
+    q4()
+    q5()
+    q6()
