@@ -227,7 +227,7 @@ while True:
                 if 답안 == '':
                     continue
                 
-                elif len(정담) > 3 and 답안 in 정답 or len(정담) < 4 and 답안 == 정답:
+                elif len(정답) > 3 and 답안 in 정답 or len(정답) < 4 and 답안 == 정답:
                     print('\n★★ 정답★★\n\n뒤로 돌아가려면 X를 입력하세요~')
                     break
                 
